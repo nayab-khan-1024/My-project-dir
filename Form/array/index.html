@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array</title>
+    <!-- As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.-->
+    <script>
+      let nums = [1, 2, 3];
+      let numbers = [1, 2, 3];
+      console.log(nums == numbers);
+
+      let x = {
+        username: "albert",
+        role: "teaching",
+        country: "dubai",
+      };
+      console.log(x);
+      let x1 = {
+        username: "pinto",
+        role: "principal",
+        country: "india",
+      };
+      console.log(x == x1);
+      console.log(x != x1);
+
+      /// declaring number data types
+      //let age=35,
+      //cons gravity= 9.81,
+      //let mass = 72,
+      //cons PI = 3.14;
+      //console.log(age, gravity, mass, PI);//
+      const PI = Math.PI;
+      console.log(PI);
+      // Rounding to the closest number
+
+      // if above .5 up if less 0.5 down rounding
+      console.log(Math.min(-5, 3, 20, 4, 5, 10)); // -5, returns the minimum value
+      console.log(Math.max(-5, 3, 20, 4, 5, 10)); // 20, returns the max value
+
+      const randNum = Math.random();
+      console.log(randNum); //creates random number between 0 to 0.99999
+      const r = Math.random(1.0 - 19);
+      console.log(r);
+
+      /// Creaing random number between 0 10
+      const num = Math.floor(Math.random() * 11);
+      console.log(num);
+    </script>
+  </head>
+  <body>
+    <h1>This is a Array javascript</h1>
+  </body>
+</html>

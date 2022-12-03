@@ -10,6 +10,3 @@ inset - Defines a 3D inset border. The effect depends on the border-color value
 outset - Defines a 3D outset border. The effect depends on the border-color value
 none - Defines no border
 hidden - Defines a hidden border
-
-
- 
